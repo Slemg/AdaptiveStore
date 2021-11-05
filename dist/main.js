@@ -76,8 +76,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
 /******/ 	
 /******/ })()
-<<<<<<< HEAD
+
 ;
-=======
+
 ;
->>>>>>> da03fc0e0ebe13767eb6a5337290499462d412a0
+
