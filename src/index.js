@@ -81,7 +81,7 @@ $('#main-content-pc').slick({
       },
     ]
   });
-alert('JS работает')
+// alert('JS работает')
 
 
 
