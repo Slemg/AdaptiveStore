@@ -31,14 +31,14 @@ $('#main-content-pc').slick({
   slidesToShow: 2,
   slidesToScroll: 2,
   rows:3,
-  autoplaySpeed: 4000,
+  playSpeed: 4000,
 });
   $('#review-content').slick({
     dots: true,
     slidesToShow: 2,
     slidesToScroll: 2,
   
-    autoplaySpeed: 2000,
+    playSpeed: 3000,
     responsive: [
       {
         breakpoint: 1200,
@@ -70,7 +70,7 @@ $('#main-content-pc').slick({
     slidesToShow: 2,
     slidesToScroll: 2,
   
-    autoplaySpeed: 2000,
+    playSpeed: 3000,
     responsive: [
       {
         breakpoint: 1350,
@@ -81,7 +81,7 @@ $('#main-content-pc').slick({
       },
     ]
   });
-// alert('JS работает')
+alert('JS работает')
 
 
 
