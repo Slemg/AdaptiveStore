@@ -90,7 +90,9 @@ html {
     visibility: visible;
     right: 0;
 }
-
+#hamburger-menu {
+    z-index:100
+}
 .menu__btn {
     display: flex;
     align-items: center;
