@@ -1,15 +1,8 @@
 $('#main-content').slick({
   dots: true,
+  slidesToShow: 2,
+  slidesToScroll: 2,
   responsive: [
-    {
-      breakpoint: 1440,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
     {
       breakpoint: 800,
       settings: {
@@ -17,13 +10,7 @@ $('#main-content').slick({
         slidesToScroll: 1
       }
     },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
+   
   ]
 });
 $('#main-content-pc').slick({
@@ -130,5 +117,4 @@ $('#main-content-pc').slick({
 
 
 
- alert(1)
 
