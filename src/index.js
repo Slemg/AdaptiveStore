@@ -11,7 +11,7 @@ $('#main-content').slick({
       }
     },
     {
-      breakpoint: 700,
+      breakpoint: 800,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -130,5 +130,5 @@ $('#main-content-pc').slick({
 
 
 
- 
+ alert(1)
 
