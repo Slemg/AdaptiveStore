@@ -1,8 +1,17 @@
 $('#main-content').slick({
   dots: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        
+      }
+    },
+    ]
 
 });
 $('#main-content-pc').slick({
