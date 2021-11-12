@@ -4,7 +4,7 @@ $('#main-content').slick({
   slidesToScroll: 2,
   responsive: [
     {
-      breakpoint: 800,
+      breakpoint: 1024,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
